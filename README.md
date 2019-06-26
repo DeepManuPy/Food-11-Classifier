@@ -20,3 +20,4 @@ open EvaluationReport.json to see the full report.
 
 ![](output/bread.png)
 output predicted by the model on own image.
+Model plot pc: PyImageSearch
