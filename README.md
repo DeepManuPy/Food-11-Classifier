@@ -18,6 +18,6 @@ After Evaluating the Final model after training. The Final evaluation on the Tes
 
 open EvaluationReport.json to see the full report.
 
-![](output/bread.png)
+![](output/121.png)
 output predicted by the model on own image.
 Model plot pc: PyImageSearch
