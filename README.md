@@ -2,6 +2,7 @@
 Fine Tuned VGG16 model to train on Food-11 dataset.
 pre-trained networks (such as ones trained on the ImageNet dataset) contain rich, discriminative filters. The filters can be used on datasets to predict class labels outside the ones the network has already been trained on.
 However, instead of simply applying feature extraction, we are going to perform network surgery and modify the actual architecture so we can re-train parts of the network.
+One can Find the dataset in Kaggle.com as Food-11 dataset.
 
 
 ![](output/fine_tuning_keras_network_surgery.png)
