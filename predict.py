@@ -8,7 +8,7 @@ import cv2
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", type=str, required=True,
-	help="path to our input image")
+                help="path to our input image")
 args = vars(ap.parse_args())
 image = cv2.imread(args["image"])
 output = image.copy()
@@ -36,7 +36,7 @@ label = config.CLASSES[i]
 # draw the prediction on the output image
 text = "{}: {:.2f}%".format(label, preds[i] * 100)
 cv2.putText(output, text, (3, 20), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
-	(0, 255, 0), 2)
+            (0, 255, 0), 2)
 
 # show the output image
 cv2.imshow("Output", output)
